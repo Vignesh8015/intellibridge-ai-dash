@@ -13,6 +13,7 @@ import ApiGenerator from "./pages/ApiGenerator";
 import MigrationEstimator from "./pages/MigrationEstimator";
 import SecurityAnalyzer from "./pages/SecurityAnalyzer";
 import Reports from "./pages/Reports";
+import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
