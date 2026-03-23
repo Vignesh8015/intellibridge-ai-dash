@@ -27,6 +27,7 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/login" element={<Login />} />
             <Route element={<DashboardLayout />}>
               <Route path="dashboard" element={<Dashboard />} />
               <Route path="code-scanner" element={<CodeScanner />} />
